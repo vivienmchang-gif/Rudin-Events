@@ -343,7 +343,7 @@ export default function Home() {
                   <div className="flex items-center gap-3 mb-3">
                     <div className="h-px flex-1 bg-rudin-light" />
                     <div className="flex items-center gap-2 bg-rudin-navy text-white px-4 py-1.5 rounded-full text-sm">
-                      {propData?.type === "Commercial" ? <Building2 size={13} /> : <Home size={13} />}
+                      {propData?.type === "Commercial" ? <Building2 size={13} /> : <HomeIcon size={13} />}
                       <span className="font-medium">{prop}</span>
                       <span className="text-blue-300 text-xs">({propEvents.length})</span>
                     </div>
