@@ -9,7 +9,7 @@ import {
   Calendar,
   ExternalLink,
   Building2,
-  Home,
+  Home as HomeIcon,
   Filter,
   Loader2,
   CheckSquare,
